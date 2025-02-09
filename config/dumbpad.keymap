@@ -35,7 +35,7 @@
         };
 
         vcc_cutoff {
-            bindings = <&ext_power EP_OFF>;
+            bindings = <&ext_power EP_TOG>;
             key-positions = <17 16>;
         };
 
