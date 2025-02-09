@@ -1,10 +1,9 @@
-#include <layouts/dumbpad/position_map.dtsi>
 #include <physical_layouts.dtsi>
 
 / {
     dumbpad_5col_layout: dumbpad_5col_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Default Transform";
+        display-name = "Default";
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100   100      0      0      0     0     0>
@@ -26,17 +25,6 @@
             , <&key_physical_attrs 100   100    200    300      0     0     0>
             , <&key_physical_attrs 100   100    300    300      0     0     0>
         ;
-    };
-};
-
-&layouts_dumbpad_position_map {
-    dumbpad_default_transform_posmap: five {
-        physical-layout = <&dumbpad_5col_layout>;
-        positions
-            = <    0  1  2  3>
-            , <    4  5  6  7>
-            , <8   9 10 11 12>
-            , <13 14 15 16 17>;
     };
 };
 
