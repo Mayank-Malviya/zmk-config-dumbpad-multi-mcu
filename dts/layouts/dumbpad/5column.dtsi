@@ -2,7 +2,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    dumbpad_default_transform_layout: dumbpad_default_transform_layout {
+    dumbpad_5col_layout: dumbpad_5col_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Transform";
 
