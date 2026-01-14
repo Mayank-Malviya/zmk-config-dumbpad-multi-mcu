@@ -56,7 +56,7 @@
 
         default_layer {
             bindings = <
-          &kp LG(C)         &kp LG(V)         &kp LG(X)     &kp LG(Z)
+          &kp LG(C)         &kp LG(LS(D))         &kp LG(X)     &kp LG(Z)
           &kp LG(F)         &kp LG(S)         &kp LG(N)     &kp LG(W)
 &kp C_PP  &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &kp LG(FSLH)  &kp LG(R)
 &kp C_PP  &kp LG(LS(D))     &kp LG(LS(D))     &td1          &td2
